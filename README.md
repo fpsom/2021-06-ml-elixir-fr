@@ -1,4 +1,3 @@
-[![DOI](https://zenodo.org/badge/276078951.svg)](https://zenodo.org/badge/latestdoi/276078951)
 
 <div class="sponsor-logos">
   <a href="https://www.sib.swiss/" title="SIB">
@@ -10,36 +9,28 @@
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
     <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="100"/>
   </a>
-  <a href="https://www.uom.ac.mu/" title="University of Mauritius">
-    <img style="margin-right:50px" alt="Funders" src="static/images/UoM-Logo.png" width="100"/>
-  </a>
-  <a href="https://www.h3abionet.org/" title="H3ABioNet">
-    <img style="margin-right:50px" alt="Funders" src="static/images/H3ABionetLogo.png" width="100"/>
-  </a>
 </div>  
 
-## Overview of the course material for the SIB "Introduction to Machine Learning" course
+## Overview of the course material for the ELIXIR-ML "Introduction to Machine Learning" course
 
-**When**: 22-23 July 2020, 09:00 - 16:30 CEST
+**When**: 16-17 June 2021, 09:00 - 16:30 CEST
 
-**Where**: Online. Streamed from Greece and Mauritius. More information [here](https://www.sib.swiss/training/course/2020-07-machine-learning)
+**Where**: Online. Streamed from Greece and Switzerland. More information [here **link to be fixed**](to-be-fixed)
 
 
 ### Instructors and helpers
 
 **Instructors**:
 
-- [**Shakuntala Baichoo**](https://www.linkedin.com/in/shakuntala), [University of Mauritius](https://www.uom.ac.mu/), [H3ABioNet](https://www.h3abionet.org/)
-
-- [**Fotis Psomopoulos**](https://fpsom.github.io/), [INAB-CERTH](http://inab.certh.gr), [ELIXIR-GR](https://www.elixir-greece.org/)
-
-**Helpers**:
-
 - **Wandrille Duchemin**, [sciCORE](https://scicore.unibas.ch/), [SIB](https://www.sib.swiss/)
 
 - **Thuong Van Du Tran**, [Vital-IT](https://www.vital-it.ch/), [SIB](https://www.sib.swiss/)
 
+- [**Fotis Psomopoulos**](https://biodataanalysisgroup.github.io/), [INAB-CERTH](http://inab.certh.gr), [ELIXIR-GR](https://www.elixir-greece.org/)
 
+**Helpers**:
+
+- To be updated
 
 ### Overview
 With the rise in high-throughput sequencing technologies, the volume of omics data has grown exponentially in recent times and a major issue is to mine useful knowledge from these data which are also heterogeneous in nature. Machine learning (ML) is a discipline in which computers perform automated learning without being programmed explicitly and assist humans to make sense of large and complex data sets. The analysis of complex high-volume data is not trivial and classical tools cannot be used to explore their full potential. Machine learning can thus be very useful in mining large omics datasets to uncover new insights that can advance the field of bioinformatics.

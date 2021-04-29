@@ -9,6 +9,9 @@
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
     <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="100"/>
   </a>
+  <a href="https://www.france-bioinformatique.fr/" title="IFB">
+    <img style="margin-right:50px" alt="IFB" src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb_CMJN-1.svg" width="100"/>
+  </a>
 </div>  
 
 ## Overview of the course material for the ELIXIR-ML "Introduction to Machine Learning" course

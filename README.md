@@ -137,15 +137,11 @@ Relevant literature includes:
 
 ## Additional information
 
-**Coordination**: Monique Zahn
+**Coordination**: Olivier Sand
 
-We will recommend 0.50 ECTS credits for this course (given a passed exam at the end of the course). The exam description is available [here](exam/README.md) - and is due for August 7th.
+ELIXIR-FR abides by the [ELIXIR Code of Conduct](https://elixir-europe.org/events/code-of-conduct). Participants of ELIXIR-FR courses are also required to abide by the same code.
 
-You are welcome to register to the SIB courses mailing list to be informed of all future courses and workshops, as well as all important deadlines using the form [here](https://lists.sib.swiss/mailman/listinfo/courses).
-
-SIB abides by the [ELIXIR Code of Conduct](https://elixir-europe.org/events/code-of-conduct). Participants of SIB courses are also required to abide by the same code.
-
-For more information, please contact [training@sib.swiss](mailto:training@sib.swiss).
+For more information, please contact [olivier.sand@cnrs.fr](mailto:olivier.sand@cnrs.fr).
 
 
 ## License

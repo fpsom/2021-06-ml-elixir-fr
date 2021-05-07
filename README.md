@@ -1,6 +1,6 @@
 
 <div class="sponsor-logos">
-  <a href="https://www.france-bioinformatique.fr/" title="IFB">
+  <a href="https://www.france-bioinformatique.fr/en" title="IFB">
     <img style="margin-right:50px" alt="IFB" src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb_CMJN-1.svg" width="100"/>
   </a>
   <a href="http://inab.certh.gr/" title="INAB/CERTH">
@@ -135,7 +135,7 @@ Relevant literature includes:
 
 ## Additional information
 
-**Coordination**: Olivier Sand
+**Coordination**: Olivier Sand, [ELIXIR-FR/IFB](https://www.france-bioinformatique.fr/en)
 
 ELIXIR-FR abides by the [ELIXIR Code of Conduct](https://elixir-europe.org/events/code-of-conduct). Participants of ELIXIR-FR courses are also required to abide by the same code.
 

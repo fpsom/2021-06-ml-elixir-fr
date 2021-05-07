@@ -14,7 +14,7 @@
   </a>
 </div>  
 
-## Overview of the course material for the ELIXIR-ML "Introduction to Machine Learning" course
+## Overview of the course material for the ELIXIR-FR "Introduction to Machine Learning Using R" course
 
 **When**: 16-17 June 2021, 09:00 - 16:30 CEST
 

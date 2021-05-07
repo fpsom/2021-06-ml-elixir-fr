@@ -18,7 +18,9 @@
 
 **When**: 16-17 June 2021, 09:00 - 16:30 CEST
 
-**Where**: Online. Streamed from Greece and Switzerland. Registration [here](https://framaforms.org/machine-learning-for-omics-data-elixir-training-2021-registration-form-1620136860)
+**Where**: Online. Streamed from Greece and Switzerland. More information will follow soon.
+
+**Registration**: [here](https://framaforms.org/machine-learning-for-omics-data-elixir-training-2021-registration-form-1620136860)
 
 
 ### Instructors and helpers

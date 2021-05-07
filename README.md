@@ -139,9 +139,6 @@ Relevant literature includes:
 
 ELIXIR-FR abides by the [ELIXIR Code of Conduct](https://elixir-europe.org/events/code-of-conduct). Participants of ELIXIR-FR courses are also required to abide by the same code.
 
-For more information, please contact [olivier.sand@cnrs.fr](mailto:olivier.sand@cnrs.fr).
-
-
 ## License
 
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)

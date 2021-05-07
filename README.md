@@ -1,16 +1,16 @@
 
 <div class="sponsor-logos">
-  <a href="https://www.sib.swiss/" title="SIB">
-    <img style="margin-right:50px" alt="SIB" src="static/images/SIB-Logo.png" width="100"/>
+  <a href="https://www.france-bioinformatique.fr/" title="IFB">
+    <img style="margin-right:50px" alt="IFB" src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb_CMJN-1.svg" width="100"/>
   </a>
   <a href="http://inab.certh.gr/" title="INAB/CERTH">
     <img style="margin-right:50px" alt="INAB/CERTH" src="static/images/INAB-logo.png" width="100"/>
   </a>
+  <a href="https://www.sib.swiss/" title="SIB">
+    <img style="margin-right:50px" alt="SIB" src="static/images/SIB-Logo.png" width="100"/>
+  </a>
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
     <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="100"/>
-  </a>
-  <a href="https://www.france-bioinformatique.fr/" title="IFB">
-    <img style="margin-right:50px" alt="IFB" src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb_CMJN-1.svg" width="100"/>
   </a>
 </div>  
 
@@ -18,7 +18,7 @@
 
 **When**: 16-17 June 2021, 09:00 - 16:30 CEST
 
-**Where**: Online. Streamed from Greece and Switzerland. More information [here **link to be fixed**](to-be-fixed)
+**Where**: Online. Streamed from Greece and Switzerland. Registration [here](https://framaforms.org/machine-learning-for-omics-data-elixir-training-2021-registration-form-1620136860)
 
 
 ### Instructors and helpers
@@ -102,15 +102,11 @@ _Maximum participants_: 30
 | 15:30 - 16:00 | **Regression** (_practical_) (cont'd) |
 | 16:00 - 16:30 | _Closing questions, Discussion_ |
 
-## Exam
-
-The [exam](exam/README.md) offers you the possibility of applying what you learned during this course on a health-related data-set.
-
 ## Other examples
 
 If you finish all the exercises and wish to practice on more examples, here are a couple of good examples to help you get more familiar with the different ML techniques and packages.
 1. [RNASeq Analysis in R](https://combine-australia.github.io/RNAseq-R/06-rnaseq-day1.html)
-2. [Use the Iris R built-in data set](https://github.com/fpsom/CODATA-RDA-Advanced-Bioinformatics-2019/blob/master/3.Day3.md)to run clustering and also some supervised classification and compare results obtained by different methods.
+2. [Use the Iris R built-in data set](https://github.com/fpsom/CODATA-RDA-Advanced-Bioinformatics-2019/blob/master/3.Day3.md) to run clustering and also some supervised classification and compare results obtained by different methods.
 
 ## Sources / References
 

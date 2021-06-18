@@ -49,4 +49,4 @@ The R programming language has gained considerable popularity among statistician
 
 ### Slides / material
 
-The slides for this section are available [here](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/files/IntroML_SIB_Jul-2020.pdf)
+The slides for this section are available [here](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/files/IntroML_ELIXIR-FR_Jun-2021.pdf)

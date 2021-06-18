@@ -81,7 +81,7 @@ We see the following output and a figure:
 4 -1.00000000      6 0.2727273 0.3006993 0.04330166
 ```
 
-![Full decision tree](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/decisionTreeFull.png "Full decision tree")
+![Full decision tree](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/decisionTreeFull.png "Full decision tree")
 
 The parameters that we used reflect the following aspects of the model:
 - `minsplit`: the minimum number of instances in a node so that it is split
@@ -110,7 +110,7 @@ B  245  34
 M   9   109
 ```
 
-![Pruned decision tree](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/decisionTreePruned.png "Pruned decision tree")
+![Pruned decision tree](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/decisionTreePruned.png "Pruned decision tree")
 
 _Question: **What does the above "Confusion Matrix" tells you?**_
 
@@ -134,7 +134,7 @@ BreastCancer_pred   B   M
                 M   1  53
 ```
 
-![Prediction Plot](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/predictionPlot.png "Prediction Plot")
+![Prediction Plot](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/predictionPlot.png "Prediction Plot")
 
 | **Exercises**  |   |
 |--------|----------|
@@ -207,7 +207,7 @@ We can view the overall performance of the model here:
 plot(rf, main = "")
 ```
 
-![Error rate plot for the Random Forest model](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/error-rate-rf.png "Error rate plot for the Random Forest model")
+![Error rate plot for the Random Forest model](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/error-rate-rf.png "Error rate plot for the Random Forest model")
 
 We can also review which of the variables has the highest "importance" (i.e. impact to the performance of the model):
 
@@ -253,7 +253,7 @@ Symmetry.Worst                 2.1507714
 Fractal.Dimension.Worst        1.1498020
 ```
 
-![Importance of the individual variables](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/importance-variables.png "Importance of the individual variables")
+![Importance of the individual variables](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/importance-variables.png "Importance of the individual variables")
 
 Let's try to do a prediction of the `Diagnosis` for the test set, using the new model. The margin of a data point is as the proportion of votes for the correct class minus maximum proportion of votes for other classes. Positive margin means correct classification.
 
@@ -272,7 +272,7 @@ BreastCancer_pred_RD   B   M
                    M   2  63
 ```
 
-![Margin plot for the Random Forest](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/margin-rf.png "Margin plot for the Random Forest")
+![Margin plot for the Random Forest](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/margin-rf.png "Margin plot for the Random Forest")
 
 Feature selection: We can evaluate the prediction performance of models with reduced numbers of variables that are ranked by their importance.
 
@@ -337,7 +337,7 @@ preds <- predict(bc_model_full)
 plot(preds, bc$Radius.Mean, xlab = "Prediction", ylab = "Observed")
 abline(a = 0, b = 1)
 ```
-![Prediction Plot GLM](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/lm_full_dataset.png "Prediction Plot GLM")
+![Prediction Plot GLM](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/lm_full_dataset.png "Prediction Plot GLM")
 
 We can also have a better look at what the model contains with `summary(bc_model_full)`:
 
@@ -346,8 +346,8 @@ Call:
 lm(formula = Radius.Mean ~ ., data = bc)
 
 Residuals:
-    Min      1Q  Median      3Q     Max 
--4.8307 -0.1827  0.1497  0.3608  0.7411 
+    Min      1Q  Median      3Q     Max
+-4.8307 -0.1827  0.1497  0.3608  0.7411
 
 Coefficients:
                      Estimate Std. Error t value Pr(>|t|)    
@@ -358,10 +358,10 @@ Area.Mean           0.0096400  0.0001169  82.494   <2e-16 ***
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 0.5563 on 566 degrees of freedom
-Multiple R-squared:  0.9752,	Adjusted R-squared:  0.9751 
+Multiple R-squared:  0.9752,	Adjusted R-squared:  0.9751
 F-statistic: 1.111e+04 on 2 and 566 DF,  p-value: < 2.2e-16
 ```
-But his only provides the evaluation on the whole datset that we sued for training. we don't know how it will perform on unknown dataset. So, let's split our dataset into training and test set, create the model on trainign set and visualize the predictions
+But his only provides the evaluation on the whole dataset that we sued for training. we don't know how it will perform on unknown dataset. So, let's split our dataset into training and test set, create the model on training set and visualize the predictions
 
 ```r
 set.seed(123)
@@ -377,7 +377,7 @@ bc_test <- bc[ind==2,]
 summary(bc_model)
 
 
-######Evaluating graphically 
+######Evaluating graphically
 #Let's make predictions on our training dataset and store the predictions as a new column
 bc_train$pred <- predict(bc_model)
 
@@ -386,14 +386,15 @@ ggplot(bc_train, aes(x = pred, y = Radius.Mean)) +
   geom_point() +
   geom_abline(color = "blue")
 ```
-![Prediction Plot GLM](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/lm_train_dataset.png "Prediction Plot GLM")
+![Prediction Plot GLM](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/lm_train_dataset.png "Prediction Plot GLM")
 
 You will note that it is quite similar to when using whole dataset
 
-Let's predict using test data
-bc_test$pred <- predict(bc_model , newdata=bc_test)
+Let's predict using test data:
 
 ```r
+bc_test$pred <- predict(bc_model , newdata=bc_test)
+
 # plot the ground truths vs predictions for test set and examine the plot. Does it look as good with the predictions on the training set?
 ggplot(bc_test, aes(x = pred, y = Radius.Mean)) +
   geom_point() +
@@ -403,6 +404,7 @@ ggplot(bc_test, aes(x = pred, y = Radius.Mean)) +
 Now let's use the RMSE and the R_square metrics to evaluate our model on the training and test set.
 
 #####1. Evaluating model using RMSE - on training set
+
 ```r
 #Calculate residuals
 res <- bc_train$Radius.Mean-bc_train$pred
@@ -418,7 +420,10 @@ res <- bc_train$Radius.Mean-bc_train$pred
 ```
 So we can see that our RMSE is very small compared to SD, hence it is a good model
 
-######Exercise 1 Calculate RMSE for the test data and check if the model is not overfit.
+| **Exercises**  |   |
+|--------|----------|
+| 1 | Calculate RMSE for the test data and check if the model is not overfit. |
+
 
 #####2. Evaluating model using R Square - on training set
 
@@ -439,14 +444,16 @@ rss <- sum(err^2)
 ```
 This again confirms that our model is very good as the R_Square value is very close to 1
 
-###### Exercise 2 Calculate R_Square for the test data and check if the model is not overfit.
+| **Exercises**  |   |
+|--------|----------|
+| 1 | Calculate R_Square for the test data and check if the model is not overfit. |
 
 
 ### Generalized Linear Model (GLM)
 
 GLM, as the name implies, generalizes linear regression by allowing the linear model to be related to the response variable via a link function and allowing the magnitude of the variance of each measurement to be a function of its predicted value. It unifies various other statistical models, including linear regression, logistic regression and Poisson regression. The corresponding function is `glm()`; it fits generalized linear models, specified by giving a symbolic description of the linear predictor and a description of the error distribution.
 
-We will perform Linear Regression using GLM with family =Gaussian. GLM with the log link function we are modeling the linear regression as ln(f(y)).  type for response indicates the type of prediction required. The default is on the scale of the linear predictors,  and the alternative "response" is on the scale of the response variable. 
+We will perform Linear Regression using GLM with family =Gaussian. GLM with the log link function we are modeling the linear regression as ln(f(y)).  type for response indicates the type of prediction required. The default is on the scale of the linear predictors,  and the alternative "response" is on the scale of the response variable.
 
 And we will do visualization and calculate RMSE adn RSquare for the training data after generating our model and compare the results for linear regression we got above.
 
@@ -465,7 +472,7 @@ The output is the following:
 Call:
 glm(formula = myFormula, family = gaussian("log"), data = bc_train)
 
-Deviance Residuals: 
+Deviance Residuals:
     Min       1Q   Median       3Q      Max  
 -8.8018  -0.5850   0.1779   0.7005   1.8351  
 
@@ -494,8 +501,8 @@ bc_train$pred2 <-predict(bc_model2,type = "response")
 ggplot(bc_train, aes(x = pred2, y = Radius.Mean)) +
   geom_point() +
   geom_abline(color = "blue")
-  
-  
+
+
 ######RMSE
 res <- bc_train$Radius.Mean-bc_train$pred2
 
@@ -524,7 +531,7 @@ rss <- sum(err^2)
 ```
 The plot, the value of RMSE (higher than in linear regression) and RSquare (lower than that for linear regression) indicates that this model is not as good as linear regression.
 
-![Prediction Plot GLM](https://raw.githubusercontent.com/fpsom/2020-07-machine-learning-sib/master/static/images/glm_train_dataset.png "Prediction Plot GLM")
+![Prediction Plot GLM](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/glm_train_dataset.png "Prediction Plot GLM")
 
 | **Exercises**  |   |
 |--------|----------|

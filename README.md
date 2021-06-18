@@ -18,7 +18,7 @@
 
 **When**: 16-17 June 2021, 09:00 - 16:30 CEST
 
-**Where**: Online. Streamed from Greece and Switzerland. More information will follow soon.
+**Where**: Online. Streamed from Greece and Switzerland.
 
 **Registration**: [here](https://framaforms.org/machine-learning-for-omics-data-elixir-training-2021-registration-form-1620136860)
 
@@ -27,15 +27,23 @@
 
 **Instructors**:
 
-- **Wandrille Duchemin**, [sciCORE](https://scicore.unibas.ch/), [SIB](https://www.sib.swiss/)
-
 - **Thuong Van Du Tran**, [Vital-IT](https://www.vital-it.ch/), [SIB](https://www.sib.swiss/)
 
 - [**Fotis Psomopoulos**](https://biodataanalysisgroup.github.io/), [INAB-CERTH](http://inab.certh.gr), [ELIXIR-GR](https://www.elixir-greece.org/)
 
 **Helpers**:
 
-- To be updated
+- **Wandrille Duchemin**, [sciCORE](https://scicore.unibas.ch/), [SIB](https://www.sib.swiss/)
+
+- **Pradeep Eranti**, INSERM
+
+- **Maria Tsagiopoulou**, [INAB-CERTH](http://inab.certh.gr)
+
+- **Nikolaos Pechlivanis**, [INAB-CERTH](http://inab.certh.gr)
+
+- **Maria-Christina Maniou**, [INAB-CERTH](http://inab.certh.gr)
+
+- **Anastasis Togkousidis**, [INAB-CERTH](http://inab.certh.gr)
 
 ### Overview
 With the rise in high-throughput sequencing technologies, the volume of omics data has grown exponentially in recent times and a major issue is to mine useful knowledge from these data which are also heterogeneous in nature. Machine learning (ML) is a discipline in which computers perform automated learning without being programmed explicitly and assist humans to make sense of large and complex data sets. The analysis of complex high-volume data is not trivial and classical tools cannot be used to explore their full potential. Machine learning can thus be very useful in mining large omics datasets to uncover new insights that can advance the field of bioinformatics.

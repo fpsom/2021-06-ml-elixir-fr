@@ -281,7 +281,7 @@ result <- rfcv(breastCancerData.train, breastCancerData.train$Diagnosis, cv.fold
 with(result, plot(n.var, error.cv, log="x", type="o", lwd=2))
 ```
 
-![Random Forest Cross-Valdidation for feature selection](https://github.com/fpsom/2020-07-machine-learning-sib/blob/master/static/images/rfcv.png "Random Forest Cross-Valdidation for feature selection")
+![Random Forest Cross-Validation for feature selection](https://raw.githubusercontent.com/fpsom/2021-06-ml-elixir-fr/main/static/images/rfcv.png "Random Forest Cross-Valdidation for feature selection")
 
 | **Exercises**  |   |
 |--------|----------|
@@ -292,7 +292,6 @@ with(result, plot(n.var, error.cv, log="x", type="o", lwd=2))
 ## Supervised Learning II: regression
 
 ### Linear regression
-
 
 Linear regression is to predict response with a linear function of predictors. The most common function in R for this is `lm`. In our dataset, let's try to investigate the relationship between `Radius.Mean`, `Concave.Points.Mean` and `Area.Mean`. We can get a first impression by looking at the correlation of these variables:
 
@@ -403,10 +402,10 @@ ggplot(bc_test, aes(x = pred, y = Radius.Mean)) +
 
 Now let's use the RMSE and the R_square metrics to evaluate our model on the training and test set.
 
-#####1. Evaluating model using RMSE - on training set
+**1. Evaluating model using RMSE - on training set**
 
 ```r
-#Calculate residuals
+# Calculate residuals
 res <- bc_train$Radius.Mean-bc_train$pred
 #For training data we can also obtain the residuals using the bc_model$residuals
 
@@ -425,7 +424,7 @@ So we can see that our RMSE is very small compared to SD, hence it is a good mod
 | 1 | Calculate RMSE for the test data and check if the model is not overfit. |
 
 
-#####2. Evaluating model using R Square - on training set
+**2. Evaluating model using R Square - on training set**
 
 ```r
 # Calculate mean of outcome: bc_mean. Print it

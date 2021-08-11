@@ -35,7 +35,7 @@
 
 - **Wandrille Duchemin**, [sciCORE](https://scicore.unibas.ch/), [SIB](https://www.sib.swiss/)
 
-- **Pradeep Eranti**, INSERM
+- [**Pradeep Eranti**](https://twitter.com/pradeeperanti), [Université de Paris](https://u-paris.fr)
 
 - **Maria Tsagiopoulou**, [INAB-CERTH](http://inab.certh.gr)
 
